@@ -1,0 +1,32 @@
+{
+  "name": "projet-cine-delices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install --prefix api",
+    "start": "npm run start --prefix api",
+    "dev": "concurrently \"npm run dev:back\" \"npm run dev:front\"",
+    "dev:back": "npm run dev --prefix api",
+    "dev:front": "npm run dev --prefix client",
+    "db:create": "npm run db:create --prefix api",
+    "db:seed": "npm run db:seed --prefix api",
+    "db:reset": "npm run db:create && npm run db:seed",
+    "postinstall": "npm install --prefix client --include=daev",
+    "build": "npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Florence/projet-cine-delices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Florence/projet-cine-delices/issues"
+  },
+  "homepage": "https://github.com/O-clock-Florence/projet-cine-delices#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

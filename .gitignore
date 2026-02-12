@@ -1,0 +1,22 @@
+#Node
+node_modules/
+
+#Env
+*.env
+
+#Build
+dist/
+build/
+
+#Svelte / Vite
+.svelte-kit/
+.vite/
+
+#Logs
+*.log
+
+#OS / Editor
+.DS_Store
+.vscode/
+client/.vscode/
+api/.vscode/

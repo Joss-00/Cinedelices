@@ -1,0 +1,95 @@
+{
+  "recipes": [
+    {
+      "title": "Soupe aux choux",
+      "image_url":"Soupe aux choux image",
+      "description": "",
+      "ingredients": "choux, pomme de terre, lard fumé, oignons, sel, poivre, beurre",
+      "instruction":"",
+      "anecdote":"",
+      "category_id": 2,
+      "user_id": 1,
+      "media_id": 1
+    },
+    {
+      "title": "Kebab du hobbit",
+      "image_url":"Kebab du hobbit image",
+      "description": "",
+      "ingredients": "pain, salade, tomate, oignons, viande kebab",
+      "instruction":"",
+      "anecdote":"",
+      "category_id": 2,
+      "user_id": 2,
+      "media_id": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "Entrés"
+    },
+    {
+      "name": "Plats"
+    },
+    {
+      "name": "Dessert"
+    }
+  ],
+  "medias": [
+    {
+      "title":"La soupe aux choux",
+      "type": "Film"
+    },
+    {
+      "title":"Le seigneur des anneaux",
+      "type": "Film"
+    }
+  ],
+  "users": [
+    {
+      "username": "Michel",
+      "email": "Michel.T@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "username": "Jean",
+      "email": "Jean.n@gmail.com",
+      "password": "000000",
+      "role": "user"
+    }
+  ],
+  "comments": [
+    {
+      "content": "pas mal du tout !",
+      "user_id": 1,
+      "recipe_id": 1
+    },
+    {
+      "content": "J'ai testé et j'ai eu l'impression d'être dans le film",
+      "user_id": 2,
+      "recipe_id": 2
+    }
+  ],
+  "ratings": [
+    {
+      "value": 4,
+      "user_id":1,
+      "recipe_id":1
+    },
+    {
+      "value": 5,
+      "user_id":1,
+      "recipe_id":2
+    },
+    {
+      "value": 3,
+      "user_id":2,
+      "recipe_id":1
+    },
+    {
+      "value": 5,
+      "user_id":2,
+      "recipe_id":2
+    }
+  ]
+}

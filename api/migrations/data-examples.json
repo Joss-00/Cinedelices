@@ -1,0 +1,326 @@
+{
+  "recipes": [
+    {
+      "title": "Soupe aux choux",
+      "image_url": "/images/soupeChoux.jpg",
+      "description": "Une soupe paysanne riche et parfumée, proche de celle partagée dans le film, mêlant choux mijoté, pommes de terre et lard fumé.",
+      "ingredients": "1 chou vert, 4 pommes de terre, 150g de lard fumé, 2 oignons, 1 morceau de beurre, Sel, Poivre",
+      "instructions": "Émincer le chou et les oignons. Faire revenir les oignons et le lard dans le beurre. Ajouter le chou et les pommes de terre coupées. Couvrir d'eau et laisser mijoter 2 heures. Assaisonner en fin de cuisson.",
+      "anecdote": "C'est la soupe dont l'odeur attire « La Denrée » dans le jardin, scène clé du film.",
+      "category_id": 2,
+      "user_id": 1,
+      "media_id": 1
+    },
+    {
+      "title": "Ragoût du Seigneur des Anneaux",
+      "image_url": "/images/ragouxHobbit.jpg",
+      "description": "Un ragoût rustique et nourrissant, inspiré des repas préparés par les hobbits pendant leurs haltes.",
+      "ingredients": "2 cuisses de poulet ou 300g de viande (option végé possible), 3 carottes, 2 pommes de terre, 1 oignon, 1 branche de thym, Bouillon, Sel, Poivre",
+      "instructions": "Faire revenir la viande avec l'oignon émincé. Ajouter carottes et pommes de terre en morceaux. Couvrir de bouillon. Ajouter thym, sel et poivre. Laisser mijoter 1h à feu doux.",
+      "anecdote": "Inspiré du ragoût que Sam prépare dans *Les Deux Tours*, devenu culte pour les fans.",
+      "category_id": 2,
+      "user_id": 2,
+      "media_id": 2
+    },
+    {
+      "title": "Ratatouille de Rémy",
+      "image_url": "/images/ratatouille.jpg",
+      "description": "Ratatouille élégante en rondelles fines, fidèle à la version gastronomique préparée par Rémy dans la scène finale.",
+      "ingredients": "1 aubergine, 1 courgette, 3 tomates, 1 poivron, Herbes de Provence, Huile d'olive, Sel, Poivre",
+      "instructions": "Trancher les légumes en rondelles fines. Faire revenir le poivron en petits morceaux. Disposer les rondelles en spirale dans un plat. Arroser d'huile d'olive, ajouter sel et poivre. Cuire 45 minutes à 180°C.",
+      "anecdote": "C'est ce plat qui replonge Anton Ego en enfance lors de la scène du flashback.",
+      "category_id": 2,
+      "user_id": 3,
+      "media_id": 3
+    },
+    {
+      "title": "Burger Pulp Fiction",
+      "image_url": "/images/burgerPulpFiction.jpg",
+      "description": "Un burger juteux inspiré du Big Kahuna, star culinaire du film.",
+      "ingredients": "Pain burger, 1 steak haché, 1 tranche de fromage, Salade, Oignons, Sauce au choix",
+      "instructions": "Saisir le steak selon la cuisson souhaitée. Toaster les pains. Déposer fromage et laisser fondre. Assembler avec salade, oignons et sauce. Servir bien chaud.",
+      "anecdote": "C'est ce burger que Jules goûte dans la scène culte « This is a tasty burger! ». ",
+      "category_id": 2,
+      "user_id": 4,
+      "media_id": 4
+    },
+    {
+      "title": "Spaghetti de la Belle et le Clochard",
+      "image_url": "/images/spaghettiBelleEtClochard.jpg",
+      "description": "Des spaghetti tendres accompagnés d'une sauce tomate douce, parfaits pour un dîner romantique.",
+      "ingredients": "Spaghetti, Sauce tomate, Boulettes de viande, Oignons, Sel, Poivre",
+      "instructions": "Cuire les spaghetti al dente. Préparer une sauce tomate avec oignons revenus. Former et cuire les boulettes. Mélanger le tout dans une assiette creuse. Servir immédiatement.",
+      "anecdote": "Plat de la scène mythique où Lady et le Clochard partagent le même brin de spaghetti.",
+      "category_id": 2,
+      "user_id": 5,
+      "media_id": 5
+    },
+    {
+      "title": "Tarte aux pommes de Forrest Gump",
+      "image_url": "/images/tartePommeForrest.jpg",
+      "description": "Une tarte aux pommes simple, rustique et réconfortante, comme les desserts traditionnels du Sud des États-Unis.",
+      "ingredients": "4 pommes, 1 pâte brisée, 40g de beurre, 70g de sucre, Cannelle (optionnel)",
+      "instructions": "Éplucher et trancher les pommes. Garnir un moule avec la pâte. Disposer les pommes en rosace. Saupoudrer de sucre et ajouter quelques noisettes de beurre. Cuire 40 minutes à 180°C.",
+      "anecdote": "Évoque les desserts réconfortants qui rythment la vie de Forrest dans le film.",
+      "category_id": 3,
+      "user_id": 1,
+      "media_id": 6
+    },
+    {
+      "title": "Pizza Tortues Ninja",
+      "image_url": "/images/pizzaTortue.jpg ",
+      "description": "Une pizza simple et gourmande, hommage aux repas préférés des Tortues Ninja.",
+      "ingredients": "Pâte à pizza, Sauce tomate, Fromage râpé, Garnitures au choix",
+      "instructions": "Étaler la pâte. Ajouter sauce tomate et fromage. Garnir selon les envies. Cuire 12 à 15 minutes à 220°C.",
+      "anecdote": "Michelangelo en dévore dans presque chaque épisode et film, toujours en criant « Cowabunga ! ». ",
+      "category_id": 2,
+      "user_id": 2,
+      "media_id": 7
+    },
+    {
+      "title": "Sandwich Cubano",
+      "image_url": "/images/sandwichChef.jpg",
+      "description": "Un sandwich cubain croustillant et fondant, devenu iconique grâce au food truck du film *Chef*.",
+      "ingredients": "Pain cubain ou baguette, Porc mariné effiloché, Fromage, Cornichons, Beurre",
+      "instructions": "Beurrer le pain et le griller légèrement. Ajouter porc, fromage et cornichons. Presser le sandwich dans une poêle ou machine à panini. Cuire jusqu'à ce que le fromage fonde. Servir chaud.",
+      "anecdote": "C'est le sandwich qui relance la carrière du chef dans le film, et qui attire des foules au food truck.",
+      "category_id": 2,
+      "user_id": 3,
+      "media_id": 8
+    },
+    {
+      "title": "Ramen Naruto",
+      "image_url": "/images/ramenNaruto.jpg",
+      "description": "Un ramen riche et fumant, hommage au célèbre Ichiraku où Naruto recharge toujours ses forces.",
+      "ingredients": "Nouilles ramen, Bouillon riche, Porc chashu, Oeuf mariné, Ciboulette",
+      "instructions": "Faire chauffer le bouillon. Cuire les nouilles séparément. Préparer œuf mariné et tranches de porc. Assembler dans un bol. Ajouter ciboulette.",
+      "anecdote": "Plat omniprésent dans l'anime, notamment lorsqu'il fête ses réussites.",
+      "category_id": 2,
+      "user_id": 4,
+      "media_id": 9
+    },
+    {
+      "title": "Gâteau Matilda",
+      "image_url": "/images/gateauChocolatMatilda.jpg",
+      "description": "Un gâteau au chocolat dense et gourmand rappelant celui imposé à Bruce dans la scène culte.",
+      "ingredients": "200g chocolat, 150g beurre, 100g sucre, 3 œufs, Farine",
+      "instructions": "Faire fondre chocolat et beurre. Ajouter sucre et œufs. Incorporer la farine. Verser dans un moule. Cuire 45 minutes à 180°C.",
+      "anecdote": "Référence à la scène où Bruce doit manger un énorme gâteau sous l'œil sévère de Mlle Trunchbull.",
+      "category_id": 3,
+      "user_id": 5,
+      "media_id": 10
+    },
+    {
+      "title": "Poulet frit de Los Pollos Hermanos",
+      "image_url": "/images/pouletBreakingBad.png",
+      "description": "Un poulet frit croustillant et épicé, directement inspiré de la célèbre chaîne de Gus Fring.",
+      "ingredients": "Poulet, Farine, Paprika, Ail en poudre, Sel, Poivre, Huile de friture",
+      "instructions": "Enrober le poulet de farine assaisonnée. Faire frire dans une huile bien chaude jusqu’à obtenir une croûte dorée et croustillante. Égoutter et servir chaud.",
+      "anecdote": "Ce poulet est au cœur de l’empire de Gus Fring dans la série *Breaking Bad*.",
+      "category_id": 2,
+      "user_id": 1,
+      "media_id": 11
+    },
+    {
+      "title": "Gaufres d'Eleven",
+      "image_url": "/images/gaufresStrangerThings.png",
+      "description": "Des gaufres moelleuses et sucrées, obsession culinaire d’Eleven.",
+      "ingredients": "Farine, Œufs, Lait, Beurre, Sucre, Levure",
+      "instructions": "Mélanger les ingrédients. Verser la pâte dans un gaufrier chaud. Cuire jusqu’à ce que les gaufres soient dorées.",
+      "anecdote": "Les gaufres sont devenues un symbole culte de *Stranger Things* grâce à Eleven.",
+      "category_id": 3,
+      "user_id": 2,
+      "media_id": 12
+    },
+    {
+      "title": "Bento de Demon Slayer",
+      "image_url": "/images/bentoDemonSlayer.png",
+      "description": "Un bento japonais équilibré et réconfortant, comme ceux partagés par Tanjiro et Nezuko.",
+      "ingredients": "Riz japonais, Saumon, Légumes sautés, Œuf, Sauce soja",
+      "instructions": "Cuire le riz. Préparer le saumon et les légumes. Disposer harmonieusement dans une boîte bento. Ajouter l’œuf et assaisonner.",
+      "anecdote": "Les repas simples renforcent souvent les liens entre les personnages dans l’anime.",
+      "category_id": 2,
+      "user_id": 3,
+      "media_id": 13
+    }
+  ],
+
+  "categories": [
+    { "name": "Entrées" },
+    { "name": "Plats" },
+    { "name": "Desserts" }
+  ],
+
+  "medias": [
+    { "title": "La soupe aux choux", "type": "Film" },
+    { "title": "Le Seigneur des Anneaux", "type": "Film" },
+    { "title": "Ratatouille", "type": "Film" },
+    { "title": "Pulp Fiction", "type": "Film" },
+    { "title": "La Belle et le Clochard", "type": "Film" },
+    { "title": "Forrest Gump", "type": "Film" },
+    { "title": "Les Tortues Ninja", "type": "Film" },
+    { "title": "Chef", "type": "Film" },
+    { "title": "Naruto", "type": "Animé" },
+    { "title": "Matilda", "type": "Film" },
+    { "title": "Breaking Bad", "type": "Série" },
+    { "title": "Stranger Things", "type": "Série" },
+    { "title": "Demon Slayer", "type": "Animé" }
+  ],
+
+  "users": [
+    { "username": "Michel", "email": "michel@gmail.com", "password": "123456", "role": "user" },
+    { "username": "Jean", "email": "jean@gmail.com", "password": "123456", "role": "user" },
+    { "username": "Sarah", "email": "sarah@gmail.com", "password": "123456", "role": "user" },
+    { "username": "Luc", "email": "luc@gmail.com", "password": "123456", "role": "user" },
+    { "username": "Emma", "email": "emma@gmail.com", "password": "123456", "role": "user" },
+    { "username": "admin", "email": "admin@gmail.com", "password": "admin1234", "role": "admin" },
+    { "username": "test", "email": "test@gmail.com", "password": "test1234", "role": "user" }
+  ],
+
+  "comments": [
+  { "content": "Délicieux et réconfortant", "user_id": 1, "recipe_id": 1 },
+  { "content": "Très fidèle au film", "user_id": 2, "recipe_id": 1 },
+  { "content": "Parfait pour l'hiver", "user_id": 3, "recipe_id": 1 },
+  { "content": "Simple et efficace", "user_id": 4, "recipe_id": 1 },
+
+  { "content": "Un vrai repas d'aventurier", "user_id": 1, "recipe_id": 2 },
+  { "content": "Très gourmand", "user_id": 2, "recipe_id": 2 },
+  { "content": "J'adore le clin d'œil", "user_id": 3, "recipe_id": 2 },
+  { "content": "Facile à refaire", "user_id": 5, "recipe_id": 2 },
+
+  { "content": "Magnifique présentation", "user_id": 1, "recipe_id": 3 },
+  { "content": "Goût incroyable", "user_id": 2, "recipe_id": 3 },
+  { "content": "Comme dans le film !", "user_id": 4, "recipe_id": 3 },
+  { "content": "Très raffiné", "user_id": 5, "recipe_id": 3 },
+
+  { "content": "Mythique", "user_id": 1, "recipe_id": 4 },
+  { "content": "Très savoureux", "user_id": 3, "recipe_id": 4 },
+  { "content": "On comprend la scène", "user_id": 4, "recipe_id": 4 },
+  { "content": "Burger incroyable", "user_id": 5, "recipe_id": 4 },
+
+  { "content": "Parfait pour un dîner à deux", "user_id": 1, "recipe_id": 5 },
+  { "content": "Très romantique", "user_id": 2, "recipe_id": 5 },
+  { "content": "Simple mais efficace", "user_id": 3, "recipe_id": 5 },
+  { "content": "Un classique", "user_id": 4, "recipe_id": 5 },
+
+  { "content": "Très bon dessert", "user_id": 1, "recipe_id": 6 },
+  { "content": "Facile à faire", "user_id": 2, "recipe_id": 6 },
+  { "content": "Goût authentique", "user_id": 3, "recipe_id": 6 },
+  { "content": "J'adore", "user_id": 5, "recipe_id": 6 },
+
+  { "content": "Cowabunga !", "user_id": 1, "recipe_id": 7 },
+  { "content": "Parfaite soirée pizza", "user_id": 2, "recipe_id": 7 },
+  { "content": "Très fun", "user_id": 4, "recipe_id": 7 },
+  { "content": "Rapide et bon", "user_id": 5, "recipe_id": 7 },
+
+  { "content": "Le meilleur sandwich", "user_id": 1, "recipe_id": 8 },
+  { "content": "Très gourmand", "user_id": 2, "recipe_id": 8 },
+  { "content": "On voyage", "user_id": 3, "recipe_id": 8 },
+  { "content": "Recette au top", "user_id": 4, "recipe_id": 8 },
+
+  { "content": "Excellent ramen", "user_id": 1, "recipe_id": 9 },
+  { "content": "Très authentique", "user_id": 3, "recipe_id": 9 },
+  { "content": "Fan de Naruto", "user_id": 4, "recipe_id": 9 },
+  { "content": "Parfait", "user_id": 5, "recipe_id": 9 },
+
+  { "content": "Ultra chocolaté", "user_id": 1, "recipe_id": 10 },
+  { "content": "Défi réussi", "user_id": 2, "recipe_id": 10 },
+  { "content": "Très riche", "user_id": 3, "recipe_id": 10 },
+  { "content": "Incroyable", "user_id": 5, "recipe_id": 10 },
+  { "content": "Incroyablement croustillant", "user_id": 1, "recipe_id": 11 },
+  { "content": "On se croirait dans la série", "user_id": 2, "recipe_id": 11 },
+  { "content": "Très épicé, j’adore", "user_id": 4, "recipe_id": 11 },
+  { "content": "Recette mythique", "user_id": 5, "recipe_id": 11 },
+
+  { "content": "Ultra moelleuses", "user_id": 1, "recipe_id": 12 },
+  { "content": "Fan absolu", "user_id": 2, "recipe_id": 12 },
+  { "content": "Parfait pour le goûter", "user_id": 3, "recipe_id": 12 },
+  { "content": "Très fidèle à la série", "user_id": 4, "recipe_id": 12 },
+
+  { "content": "Très équilibré", "user_id": 1, "recipe_id": 13 },
+  { "content": "Magnifique visuellement", "user_id": 2, "recipe_id": 13 },
+  { "content": "Ambiance anime réussie", "user_id": 3, "recipe_id": 13 },
+  { "content": "Délicieux et simple", "user_id": 5, "recipe_id": 13 }
+],
+
+  "ratings": [
+  { "value": 5, "user_id": 1, "recipe_id": 1 },
+  { "value": 4, "user_id": 2, "recipe_id": 1 },
+  { "value": 4, "user_id": 3, "recipe_id": 1 },
+  { "value": 5, "user_id": 4, "recipe_id": 1 },
+  { "value": 4, "user_id": 5, "recipe_id": 1 },
+
+  { "value": 4, "user_id": 1, "recipe_id": 2 },
+  { "value": 5, "user_id": 2, "recipe_id": 2 },
+  { "value": 4, "user_id": 3, "recipe_id": 2 },
+  { "value": 4, "user_id": 4, "recipe_id": 2 },
+  { "value": 5, "user_id": 5, "recipe_id": 2 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 3 },
+  { "value": 5, "user_id": 2, "recipe_id": 3 },
+  { "value": 4, "user_id": 3, "recipe_id": 3 },
+  { "value": 5, "user_id": 4, "recipe_id": 3 },
+  { "value": 5, "user_id": 5, "recipe_id": 3 },
+
+  { "value": 4, "user_id": 1, "recipe_id": 4 },
+  { "value": 5, "user_id": 2, "recipe_id": 4 },
+  { "value": 4, "user_id": 3, "recipe_id": 4 },
+  { "value": 5, "user_id": 4, "recipe_id": 4 },
+  { "value": 5, "user_id": 5, "recipe_id": 4 },
+
+  { "value": 4, "user_id": 1, "recipe_id": 5 },
+  { "value": 4, "user_id": 2, "recipe_id": 5 },
+  { "value": 4, "user_id": 3, "recipe_id": 5 },
+  { "value": 5, "user_id": 4, "recipe_id": 5 },
+  { "value": 4, "user_id": 5, "recipe_id": 5 },
+
+  { "value": 4, "user_id": 1, "recipe_id": 6 },
+  { "value": 4, "user_id": 2, "recipe_id": 6 },
+  { "value": 5, "user_id": 3, "recipe_id": 6 },
+  { "value": 4, "user_id": 4, "recipe_id": 6 },
+  { "value": 5, "user_id": 5, "recipe_id": 6 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 7 },
+  { "value": 4, "user_id": 2, "recipe_id": 7 },
+  { "value": 4, "user_id": 3, "recipe_id": 7 },
+  { "value": 5, "user_id": 4, "recipe_id": 7 },
+  { "value": 4, "user_id": 5, "recipe_id": 7 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 8 },
+  { "value": 5, "user_id": 2, "recipe_id": 8 },
+  { "value": 4, "user_id": 3, "recipe_id": 8 },
+  { "value": 5, "user_id": 4, "recipe_id": 8 },
+  { "value": 5, "user_id": 5, "recipe_id": 8 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 9 },
+  { "value": 4, "user_id": 2, "recipe_id": 9 },
+  { "value": 5, "user_id": 3, "recipe_id": 9 },
+  { "value": 4, "user_id": 4, "recipe_id": 9 },
+  { "value": 5, "user_id": 5, "recipe_id": 9 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 10 },
+  { "value": 4, "user_id": 2, "recipe_id": 10 },
+  { "value": 4, "user_id": 3, "recipe_id": 10 },
+  { "value": 5, "user_id": 4, "recipe_id": 10 },
+  { "value": 5, "user_id": 5, "recipe_id": 10 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 11 },
+  { "value": 4, "user_id": 2, "recipe_id": 11 },
+  { "value": 5, "user_id": 3, "recipe_id": 11 },
+  { "value": 4, "user_id": 4, "recipe_id": 11 },
+  { "value": 5, "user_id": 5, "recipe_id": 11 },
+
+  { "value": 5, "user_id": 1, "recipe_id": 12 },
+  { "value": 5, "user_id": 2, "recipe_id": 12 },
+  { "value": 4, "user_id": 3, "recipe_id": 12 },
+  { "value": 4, "user_id": 4, "recipe_id": 12 },
+  { "value": 5, "user_id": 5, "recipe_id": 12 },
+
+  { "value": 4, "user_id": 1, "recipe_id": 13 },
+  { "value": 5, "user_id": 2, "recipe_id": 13 },
+  { "value": 5, "user_id": 3, "recipe_id": 13 },
+  { "value": 4, "user_id": 4, "recipe_id": 13 },
+  { "value": 5, "user_id": 5, "recipe_id": 13 }
+]
+
+}
