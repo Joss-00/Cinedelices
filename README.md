@@ -1,149 +1,144 @@
-# CinéDélices
+# CineDelices
 
-Projet final réalisé dans le cadre de la formation Développeur Web & Web Mobile (O’clock).  
-Créé par Josselin Dréan, Maxime Lagraa, David Bache et Pierre Wozniak.
+Final project for the Web & Mobile Web Developer training (O’clock).  
+Created by Josselin Dréan, Maxime Lagraa, David Bache, and Pierre Wozniak.
 
-CinéDélices est une application web qui mélange cuisine et cinéma : chaque recette est inspirée d’un film ou d’une série.  
-Les utilisateurs peuvent consulter des recettes, rechercher, commenter, noter, ajouter leurs propres contenus et gérer leurs favoris.  
-Les administrateurs disposent d’un accès complet à la gestion du catalogue et des utilisateurs.
+CineDelices is a web application that blends cooking and cinema: every recipe is inspired by a movie or a series.  
+Users can browse recipes, search, comment, rate, create content, and manage their favorites.  
+Admins have full control over recipes and user management.
 
-## Fonctionnalités principales
+## Main Features
 
-### Utilisateurs
-- Parcourir toutes les recettes
-- Recherche par titre, catégorie ou média (film/série)
-- Authentification JWT
-- Ajout de leurs propres recettes
-- Les recettes proposées par les utilisateurs sont automatiquement analysées par une IA afin de vérifier la cohérence et la propreté du contenu
-- Système de commentaires et de notes
+### Users
+- Browse all recipes
+- Search by title, category, or media (movie/series)
+- JWT authentication
+- Add their own recipes
+- User recipe submissions are automatically validated by an AI assistant to ensure clean and consistent content
+- Comments and rating system
+- Favorites management
 
-### Administrateur
-- Gestion complète du catalogue
-- Gestion des utilisateurs
-- Validation des recettes
+### Admin
+- Full catalog management
+- User management
+- Recipe validation
 
-## Stack technique
+## Tech Stack
 
 ### Frontend
 - Svelte 5 (Runes)
 - SPA Router (hash routing)
 - TailwindCSS
-- Stores Svelte (authentification et état global)
-- Services centralisés pour les appels API
+- Svelte stores for auth and global state
+- Centralized services for API requests
 
 ### Backend
 - Node.js
 - Express
 - PostgreSQL
 - Sequelize ORM
-- Authentification JWT
-- Middlewares de validation
-- Architecture MVC
+- JWT authentication
+- Validation middlewares
+- MVC architecture
 
-### Outils
-- Render (déploiement)
-- Workflow GitHub (branches)
-- ThunderClient
+### Tools
+- Render (deployment)
+- GitHub branches workflow
+- ThunderClient / Postman
 
-## Installation et lancement
+## Installation and Setup
 
-Prérequis : Node.js et PostgreSQL installés.
+Prerequisites: Node.js and PostgreSQL installed.
 
-1. Cloner le projet  
-```
+1. Clone the project  
 git clone https://github.com/O-clock-Florence/projet-cine-delices.git
 cd projet-cine-delices
-```
 
-2. Installer les dépendances (front + back)  
-Depuis la racine du projet :  
-```
+
+2. Install dependencies (front + back)  
+From the project root:  
 npm install
-```
 
-3. Configurer les variables d’environnement  
-Créer les fichiers .env à partir des .env.example dans :  
+
+3. Configure environment variables  
+Create the .env files based on .env.example in:  
 - api/.env  
 - client/.env
 
-4. Préparer la base de données  
-```
+4. Set up the database  
 npm run db:reset
-```
 
-Ce script effectue :  
-- la création de la base  
-- l’exécution des migrations  
-- l’insertion des données de test (seeds)
 
-5. Lancer le projet complet  
-```
+This script will:  
+- create the database  
+- run migrations  
+- insert seeds
+
+5. Start the full project  
 npm run dev
-```
 
-Remarque : adapter la configuration CORS dans api/index.js selon l’environnement.  
-En local : http://localhost:5173  
-En production : utiliser l’URL du frontend déployé (ex : https://cinedelice-app.onrender.com)
+
+Note: Update the CORS configuration in the API index.js according to your environment.  
+For local development, allow http://localhost:5173.  
+For production, set your deployed frontend URL (for example: https://cinedelice-app.onrender.com).
 
 Frontend → http://localhost:5173  
 API → http://localhost:3000
 
-## Arborescence simplifiée
-
+## Simplified Structure
 ```
-projet-cine-delices/
-├── api/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── migrations/
-│   ├── routers/
-│   └── public/
+projet-cine-delices
+
+├── api
+│ ├── controllers
+│ ├── middlewares
+│ ├── models
+│ ├── migrations
+│ ├── routers
+│ └── public
 │
-├── client/
-│   ├── src/
-│   └── public/
+├── client
+│ ├── src
+│ └── public
 │
 └── README.md
 ```
 
-## Améliorations prévues
-- Optimisation SEO pour SPA
-- Gestion des favoris
-- Upload d’images via Cloudinary
-- Recherche avancée
-- Mode sombre
-- Filtres combinés (catégorie + média)
+## Planned Improvements
+- SEO optimization for SPA
+- Image uploads via Cloudinary
+- Advanced search
+- Dark mode
+- Combined filters (category + media)
 
 ---
 
-## Scripts NPM utiles
+## Useful NPM Scripts
 
 ```
-Depuis la racine du projet :
+From the project root:
 
 npm install
-Installe toutes les dépendances (API + client).
+Installs all dependencies (API + client).
 
 npm run dev
-Lance simultanément le frontend (Vite) et le backend.
-
+Starts both frontend (Vite) and backend concurrently.
 
 npm run dev:front
-Lance uniquement le frontend Svelte 5.
+Starts the Svelte 5 frontend only.
 
 npm run dev:back
-Lance uniquement l’API Node/Express.
+Starts the Node/Express API only.
 
 npm run db:create
-Crée la base de données PostgreSQL.
+Creates the PostgreSQL database.
 
 npm run db:seed
-Insère les données de seed.
+Inserts seed data into the database.
 
 npm run db:reset
-Crée la base, exécute les migrations et insère les seeds.
+Creates the database, runs migrations, and seeds data.
 
 npm run build
-Construit le client Svelte pour la production.
+Builds the Svelte client for production.
 ```
