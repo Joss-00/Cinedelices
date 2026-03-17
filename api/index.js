@@ -16,7 +16,7 @@ app.use(express.static("public"));
 app.use(morgan("dev"));
 
 // Middleware cors, accepte de partager les données avec la partie client
-app.use(cors({ origin: "http://localhost:5173" })); 
+app.use(cors({  origin: process.env.CORS_ORIGIN || "http://localhost:5173"  })); 
 
 app.use(express.json());
 
