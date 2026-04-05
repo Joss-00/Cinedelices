@@ -36,7 +36,7 @@ app.use(recipeRouter);
 app.use(commentRouter);
 
 app.use((err, req, res, next) => {
-    res.status(err.status || 500).json({ message: err.message });
+    res.status(err.statusCode || 500).json({ message: err.message });
 });
 // Start server
 const PORT = process.env.PORT || 3000;
